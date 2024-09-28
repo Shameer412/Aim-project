@@ -1,0 +1,186 @@
+.Affilate-Banner-1 {
+    background-image: url("https://marketpro.ai/wp-content/uploads/2022/12/Website-Dev-Header.png?id=2860");
+    background-position: center -10vh; 
+    
+    background-repeat: no-repeat;/* Move background up by 10% of viewport height */
+    height: 700px; /* Set height to 80% of viewport height */
+    color: white;
+    padding-top: 3vh;
+     padding-left: 12vh;
+  
+}
+
+.Affilate-Banner-1 h1 {
+    font-weight: bolder;
+    font-size: 3.5rem; /* Font size set to 8% of viewport height */
+    font-family: "Playfair Display";
+    margin-bottom: 2vh; /* Space below the heading */
+}
+.Affilate-Banner-1 h3 {
+    font-weight: bolder;
+    font-size: 1.7rem; /* Font size set to 8% of viewport height */
+    font-family: Helvetica;
+    margin-top: 6vh; /* Space below the heading */
+}
+
+.Affilate-Banner-1 p {
+    font-size: 1.2rem; /* Font size set to 2.7% of viewport height */
+    font-family: Helvetica;
+    padding-top: 6vh; /* Padding top of 2% of viewport height */
+    font-weight: 500;
+}
+
+.Affilate-Banner-1 button {
+    margin-top: 6vh; /* Margin top of 3% of viewport height */
+    background: linear-gradient(90deg, #8a2387 10%, #e94057 52.08%, #f27121 100%);
+    height: 7vh; /* Height set to 7% of viewport height */
+    width: 14vw; /* Width set to 14% of viewport width */
+    color: white;
+    font-size: 2.5vh; /* Font size set to 2.5% of viewport height */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+.layout { 
+
+    padding-left: 15vh;
+    padding-right: 15vh;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    height: 100vh; /* Adjust based on your needs */
+  }
+  
+  .image-container {
+    flex: 1;
+    display: flex;
+    /* justify-content: ; */
+    
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .text-container {
+  height: 420px;
+    padding: 20px;
+  }
+  
+  .text-container h1 {
+    font-size: 2.6rem;
+    margin-bottom: 10px;
+  }
+  
+  .text-container p {
+    padding-top: 6vh;
+    font-size: 1rem;
+    
+    font-family:  Helvetica;
+    font-size: 20px;
+  }
+  .text-container button {
+    margin-top: 6vh; /* Margin top of 3% of viewport height */
+    background: linear-gradient(90deg, #8a2387 10%, #e94057 52.08%, #f27121 100%);
+    height: 7vh; /* Height set to 7% of viewport height */
+    width: 14vw; /* Width set to 14% of viewport width */
+    color: white;
+    font-size: 2.5vh; /* Font size set to 2.5% of viewport height */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+.Affilate-Banner-2{
+  background-image: url("https://marketpro.ai/wp-content/uploads/2022/11/ppc-banner-scaled.jpg?id=2403");
+  height: auto;
+  width: auto;
+  padding: 15vh;
+  padding-top: 20vh;
+  display: flex;
+color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.Affilate-Banner-2 h1{
+  font-size: 4rem;
+  font-weight: bolder;
+  font-size: 6vh;
+   }
+   .Affilate-Banner-2 p{
+      font-size: 3.2vh;
+      font-family: Helvetica;
+      padding-top: 10vh;
+      font-weight: 500;
+   }  
+.services-container1 { 
+  margin-top: 40px;
+  display: flex;
+  
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+/* Dark gradient similar to the image background */
+}
+
+.service-card1 {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+ 
+ 
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+}
+
+.service-url {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.5); /* Transparent black overlay */
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.service-text {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+.Affilate-Banner-2 button{
+  background-color: #e94057 ;
+  margin-top: 8vh; /* Margin top of 3% of viewport height */
+
+height: 7vh; /* Height set to 7% of viewport height */
+width: 14vw; /* Width set to 14% of viewport width */
+
+font-size: 2.5vh; /* Font size set to 2.5% of viewport height */
+border: none;
+border-radius: 50px;
+cursor: pointer; /* Change cursor to pointer on hover */
+
+color: white;
+}

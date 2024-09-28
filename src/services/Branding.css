@@ -1,0 +1,144 @@
+*{
+    font-family:  Helvetica;
+}
+.Branding-Banner-1 {
+    background-image: url("https://marketpro.ai/wp-content/uploads/2022/11/banner-image-ppc.png");
+    background-position: center -10vh; 
+    
+    background-repeat: no-repeat;/* Move background up by 10% of viewport height */
+    height: 650px; /* Set height to 80% of viewport height */
+    color: white;
+    padding-top: 3vh;
+     padding-left: 15vh;
+  
+}
+
+.Branding-Banner-1 h1 {
+    font-weight: bolder;
+    font-size: 3.5rem; /* Font size set to 8% of viewport height */
+    font-family: "Playfair Display";
+    margin-bottom: 2vh; /* Space below the heading */
+}
+.Branding-Banner-1 h4 {
+    font-weight: bold;
+    font-size: 1.4rem; /* Font size set to 8% of viewport height */
+    font-family: Helvetica;
+    margin-top: 6vh; /* Space below the heading */
+}
+
+.Branding-Banner-1 p {
+    font-size: 1.2rem; /* Font size set to 2.7% of viewport height */
+    font-family: Helvetica;
+    padding-top: 6vh; /* Padding top of 2% of viewport height */
+    font-weight: 500;
+}
+.Branding-Banner-1 button {
+    margin-top: 6vh; /* Margin top of 3% of viewport height */
+  background-color: #f27121;
+    height: 7vh; /* Height set to 7% of viewport height */
+    width: 14vw; /* Width set to 14% of viewport width */
+    color: white;
+    font-size: 2.5vh; /* Font size set to 2.5% of viewport height */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+.Branding-Banner-2{
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Branding-Banner-2 h1{
+    font-size: 3rem;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 60px;
+  }
+  
+  .item {
+   
+    padding: 40px;
+ 
+    border-radius: 8px; /* Rounded corners */
+    
+    /* height: 180px; */
+  }
+  
+  .item:hover {
+    background: linear-gradient(90deg, #8a2387 10%, #e94057 52.08%, #f27121 100%);
+  }
+  
+  .image {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+  }
+  
+  .title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+  .Branding-Banner-2 button { /* Margin top of 3% of viewport height */
+    background: linear-gradient(90deg, #8a2387 10%, #e94057 52.08%, #f27121 100%);
+    height: 7vh; /* Height set to 7% of viewport height */
+    width: 14vw; /* Width set to 14% of viewport width */
+    color: white;
+    font-size: 2.5vh; /* Font size set to 2.5% of viewport height */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.Branding-Banner-3 {
+  text-align: center;
+  margin: 50px auto;
+  padding: 20px;
+  max-width: 1200px;
+}
+
+.Branding-Banner-3 h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.Branding-Banner-3 p {
+  margin-top: 30px;
+  font-size: 18px;
+  margin-bottom: 40px;
+  color: #777;
+}
+
+.services-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centers the items horizontally */
+  gap: 290px; /* Adds spacing between items */
+}
+
+.service-item {
+  margin-top: 50px;
+  width: 400px;
+  text-align: center;
+}
+
+.service-item img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 15px;
+}
+
+.service-item h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 10px;
+}
