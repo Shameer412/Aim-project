@@ -89,10 +89,10 @@
   }
   .Branding-Banner-2 button { /* Margin top of 3% of viewport height */
     background: linear-gradient(90deg, #8a2387 10%, #e94057 52.08%, #f27121 100%);
-    height: 7vh; /* Height set to 7% of viewport height */
-    width: 14vw; /* Width set to 14% of viewport width */
+    height: 6vh; /* Height set to 7% of viewport height */
+    width: 12vw; /* Width set to 14% of viewport width */
     color: white;
-    font-size: 2.5vh; /* Font size set to 2.5% of viewport height */
+    font-size: 17px; /* Font size set to 2.5% of viewport height */
     border: none;
     border-radius: 50px;
     cursor: pointer; /* Change cursor to pointer on hover */
@@ -132,8 +132,8 @@
 }
 
 .service-item img {
-  width: 80px;
-  height: 80px;
+  width: 85px;
+  height: 85px;
   margin-bottom: 15px;
 }
 
@@ -141,4 +141,75 @@
   font-size: 18px;
   font-weight: 500;
   margin-top: 10px;
+}
+.Branding-Banner-3 button { /* Margin top of 3% of viewport height */
+  background: linear-gradient(90deg, #8a2387 10%, #e94057 52.08%, #f27121 100%);
+  height: 6vh; /* Height set to 7% of viewport height */
+  width: 12vw; /* Width set to 14% of viewport width */
+  color: white;
+  font-size: 17px; /* Font size set to 2.5% of viewport height */
+  border: none;
+  border-radius: 50px;
+  cursor: pointer; /* Change cursor to pointer on hover */
+  margin-top: 40px;
+}
+/* Branding baneer 4 */
+.branding-banner-4 {
+  background: linear-gradient(90deg, #8a2387 10%, #e94057 52.08%, #f27121 100%);
+  background-size: 400% 400%;
+  animation: gradientAnimation 10s ease infinite;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  -webkit-animation: gradientAnimation 10s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.branding-banner-4__left-content {
+  max-width: 40%;
+}
+
+.branding-banner-4__left-content h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.branding-banner-4__left-content p {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.branding-banner-4__right-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap:25px;
+  max-width: 50%;
+}
+
+.branding-banner-4__item-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+.branding-banner-4__list-item {
+  display: flex;
+  align-items: center;
+ 
+  margin-bottom: 10px;
+}
+
+.branding-banner-4__icon {
+  margin-right: 10px;
+  /* color: #00ff7f; */
 }

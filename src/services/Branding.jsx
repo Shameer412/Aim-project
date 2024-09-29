@@ -1,6 +1,12 @@
 import React from 'react'
 import "./Branding.css"
+import { FaCheckCircle } from 'react-icons/fa';
 const Branding = () => {
+  const links = [
+    ['PR Log', 'PR.com', 'Biometric Update', 'Identity Week'],
+    ['Planet Biometrics', 'Find Biometrics', 'Linking News'],
+    ['Business Wire', 'PR Underground', 'Open PR']
+  ];
     const servicesData = [
         { id: 1, title: 'Creating Brand Awareness', imgSrc: 'https://marketpro.ai/wp-content/uploads/2022/11/creating.png' },
         { id: 2, title: 'Marketing and Advertising', imgSrc: 'https://marketpro.ai/wp-content/uploads/2022/11/Rectangle-1888-2.png' },
@@ -81,6 +87,26 @@ Get Started</p>
             <img src={service.image} alt={service.altText} />
             <h3>{service.title}</h3>
           </div>
+        ))}
+      </div>
+      <button>Contact Us</button>
+    </div>
+    {/* Branding-Banner-4 */}
+    <div className="branding-banner-4">
+      <div className="branding-banner-4__left-content">
+        <h1>Promoting Your Business with Market’s Top PR Pros</h1>
+        <p>Get Your PR On</p>
+      </div>
+      <div className="branding-banner-4__right-content">
+        {links.map((column, index) => (
+          <ul key={index} className="branding-banner-4__item-list">
+            {column.map((link, idx) => (
+              <li key={idx} className="branding-banner-4__list-item">
+                <FaCheckCircle className="branding-banner-4__icon" />
+                {link}
+              </li>
+            ))}
+          </ul>
         ))}
       </div>
     </div>

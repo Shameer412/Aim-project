@@ -1,0 +1,107 @@
+.PPC-Banner-1 {
+    background-image: url("https://marketpro.ai/wp-content/uploads/2022/11/ppc-banner.png?id=2407");
+    background-position: center -10vh; 
+    
+    background-repeat: no-repeat;/* Move background up by 10% of viewport height */
+    height: 700px; /* Set height to 80% of viewport height */
+    color: white;
+    padding-top: 3vh;
+     padding-left: 15vh;
+  
+}
+
+.PPC-Banner-1 h1 {
+    font-weight: bolder;
+    font-size: 3.5rem; /* Font size set to 8% of viewport height */
+    font-family: "Playfair Display";
+    margin-bottom: 2vh; /* Space below the heading */
+}
+.PPC-Banner-1 h4 {
+    font-weight: bold;
+    font-size: 1.4rem; /* Font size set to 8% of viewport height */
+    font-family: Helvetica;
+    margin-top: 6vh; /* Space below the heading */
+}
+
+.PPC-Banner-1 p {
+    font-size: 1.2rem; /* Font size set to 2.7% of viewport height */
+    font-family: Helvetica;
+    padding-top: 6vh; /* Padding top of 2% of viewport height */
+    font-weight: 500;
+}
+.PPC-Banner-1 button {
+    margin-top: 6vh; /* Margin top of 3% of viewport height */
+  background-color: #f27121;
+    height: 7vh; /* Height set to 7% of viewport height */
+    width: 14vw; /* Width set to 14% of viewport width */
+    color: white;
+    font-size: 2.5vh; /* Font size set to 2.5% of viewport height */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+/* PPC-Banner-2 */
+.PPC-Banner-2{
+    display: flex;
+    padding: 8%;
+    justify-content: space-between;
+    align-items: center;
+}
+.PPC-Banner-2-1{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.PPC-Banner-2-1 p{
+    font-size: 18px;
+}
+.PPC-Banner-2 button {
+    margin-top: 6vh; /* Margin top of 3% of viewport height */
+  background-color: #f27121;
+    height: 7vh; /* Height set to 7% of viewport height */
+    width: 14vw; /* Width set to 14% of viewport width */
+    color: white;
+    font-size: 2.5vh; /* Font size set to 2.5% of viewport height */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.PPC-Banner-3 {
+    background-image: url("https://marketpro.ai/wp-content/uploads/2022/11/ppc-image-inner-1-1024x259.png");
+    background-position: center -5vh; 
+    height: 300px;
+    background-repeat: no-repeat;/* Move background up by 10% of viewport height */ /* Set height to 80% of viewport height */
+    color: white;
+  
+  
+}
+
+.PPC-Banner-4
+{
+  
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.PPC-Banner-4 h1{
+    font-size: 40px;
+}
+.PPC-Banner-4 p{
+   padding-top: 10px;
+    font-size: 18px;
+}
+
+.PPC-Banner-5{
+    display: flex;
+    padding:80px ;
+    gap: 25px;
+   
+}
+.PPC-Banner-5-1 {
+   
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
