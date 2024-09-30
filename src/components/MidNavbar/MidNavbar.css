@@ -1,0 +1,61 @@
+/* Custom Navbar Container */
+.custom-navbar {
+    background-color: #f8f9fa; /* Light background */
+    padding: 10px 0;
+  }
+  
+  /* Custom Navbar Links */
+  .custom-navbar-nav .custom-nav-link {
+    color: #000; /* Default text color */
+    font-weight: normal;
+    text-decoration: none;
+    padding: 0 13px;
+    white-space: nowrap; /* Prevent text from wrapping */
+  }
+  
+  .custom-navbar-nav .custom-nav-link:hover {
+    color: #e74c3c; /* Text color on hover */
+    
+  }
+  
+  .custom-navbar-nav .custom-nav-link.active {
+    color: #e74c3c; /* Active link color */
+  }
+  
+  .custom-navbar-nav {
+    display: flex;
+    justify-content: center; /* Center navbar items */
+    flex-wrap: wrap; /* Allow wrapping of navbar items on smaller screens */
+  }
+  
+  .custom-nav-item {
+    list-style: none; /* Remove default list styling */
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .custom-navbar-nav {
+      justify-content: flex-start; /* Align items to the left on smaller screens */
+    }
+  
+    .custom-navbar-nav .custom-nav-link {
+      padding: 10px 0; /* Increase padding vertically */
+      display: block; /* Make the links block elements on mobile */
+    }
+  
+    .custom-nav-item {
+      margin-bottom: 10px; /* Add some space between the items */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .custom-navbar-nav {
+      flex-direction: column; /* Stack the items vertically on very small screens */
+      align-items: center; /* Center items on small screens */
+    }
+  
+    .custom-navbar-nav .custom-nav-link {
+      padding: 10px 0; /* Larger padding for smaller screens */
+    }
+  }
+  

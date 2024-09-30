@@ -1,0 +1,45 @@
+/* Ensure all logos are displayed side by side */
+.carousel-container {
+    overflow: hidden; /* Hide overflowing content */
+    position: relative;
+  }
+  
+  .carousel-inner {
+    display: flex;
+    width: max-content; /* Automatically fit all the logos */
+    animation: scroll-left 10s linear infinite;
+  }
+  
+  .carousel-item {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .brand-logo {
+    max-height: 100px;
+    object-fit: contain;
+    opacity: 1;
+    padding: 30px;
+    transition: opacity 0.3s ease;
+  }
+  
+  .brand-logo:hover {
+    opacity: 1;
+  }
+  
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  /* Adjustments for responsiveness */
+  @media (max-width: 768px) {
+    .brand-logo {
+      max-height: 50px;
+    }
+  }
+  

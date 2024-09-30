@@ -1,0 +1,345 @@
+/* Default Styles for larger screens (desktops and laptops) */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+
+.section1 {
+    width: 100vw;
+    /* margin-top: vh; */
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.image-sec img {
+    width: 70vw;
+    height: 70vh;
+    border-radius: 28px;
+}
+
+.cont {
+    background: linear-gradient(90deg, #7a00b5, #e64900);
+    width: 25vw;
+    height: 80vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.data {
+    padding: 1rem;
+}
+
+.cont-para {
+    font-family: 'Inter', sans-serif;
+    width: 22vw;
+    text-align: center;
+}
+
+input {
+    background-color: #fff;
+    border-radius: 28px;
+    height: 2rem;
+    padding: 1rem;
+    border: 1px solid white;
+    width: 20vw;
+}
+
+.button {
+    background-color: black;
+    color: #fff;
+    border-radius: 28px;
+    height: 2rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    width: 8rem;
+    margin-top: 2vh;
+}
+
+.social-share {
+    padding: 1rem;
+    margin-top: 5vh;
+}
+
+.social-share a {
+    margin-left: 0.7vw;
+}
+
+/* Responsive Styles for Tablets */
+@media screen and (max-width: 1024px) {
+    .section1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-sec img {
+        width: 80vw;
+        height: 50vh;
+    }
+
+    .cont {
+        width: 60vw;
+        height: auto;
+    }
+
+    .cont-para {
+        width: 50vw;
+    }
+
+    input {
+        width: 50vw;
+    }
+
+    .button {
+        width: 10rem;
+    }
+}
+
+/* Responsive Styles for Mobile */
+@media screen and (max-width: 768px) {
+    .image-sec img {
+        width: 85vw;
+        height: auto;
+        max-height: 50vh;
+    }
+
+    .cont {
+        width: 85vw;
+        height: auto;
+        padding: 2rem 1rem;
+    }
+
+    .cont-para {
+        width: 80vw;
+        text-align: left;
+    }
+
+    input {
+        width: 80vw;
+    }
+
+    .button {
+        width: 100%;
+        height: 3rem;
+        margin-top: 1rem;
+    }
+
+    .social-share {
+        margin-top: 3vh;
+    }
+}
+
+/* Ultra-small screens (phones in portrait mode) */
+@media screen and (max-width: 480px) {
+    .image-sec img {
+        width: 95vw;
+        height: auto;
+    }
+
+    .cont {
+        width: 95vw;
+        padding: 2rem 1rem;
+    }
+
+    .cont-para {
+        width: 90vw;
+    }
+
+    input {
+        width: 90vw;
+    }
+
+    .button {
+        width: 100%;
+    }
+
+    .social-share a {
+        margin-left: 2vw;
+    }
+}
+
+.blog-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .blog-item {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog-tag {
+    background: linear-gradient(90deg, #7a00b5, #e64900);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    width: 4vw;
+  }
+  
+  .blog-date {
+    color: #999;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  
+  .main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 3vh;
+  }
+  .blog-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .p {
+    color: #666;
+    font-size: 14px;
+    font-family: 'inter';
+  }
+  
+  .view-more{
+    background: linear-gradient(90deg, #7a00b5, #e64900);
+    width: 12vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'inter' serif;
+    color: #ffff;
+    text-align: center;
+    margin-left: 40vw;
+    border-radius: 8px;
+    height: 5vh;
+    margin-bottom: 5vh;
+border: 1px solid white;
+font-size: 1rem;
+  }
+
+
+
+
+  .project-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Stronger shadow */
+    width: 100%;
+    max-width: 1200px; /* Constrain the max width */
+    margin: 0 auto;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .project-content h2 {
+    font-size: 2.5rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1.3rem;
+    color: #7a005d; /* Gradient start color for the title */
+    background: linear-gradient(90deg, #7a005d 0%, #ff0066 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .project-content p {
+    font-size: 1.1rem;
+    color: #333;
+    max-width: 500px; /* Max width for better readability */
+    margin-bottom: 2.5rem;
+    line-height: 1.6;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .project-button button {
+    padding: 1rem 3rem;
+    background: linear-gradient(90deg, #8a2be2, #ff4500); /* Gradient button background */
+    color: white;
+    border: none;
+    border-radius: 50px; /* Pill-shaped button */
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2); /* Button shadow */
+  }
+  
+  .project-button button:hover {
+    background: linear-gradient(90deg, #7a00b5, #e64900); /* Darker gradient on hover */
+    transform: translateY(-3px); /* Lift button on hover */
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 1024px) {
+    .project-content h2 {
+      font-size: 2rem;
+    }
+  
+    .project-content p {
+      font-size: 1.1rem;
+      padding: 0 1rem;
+    }
+  
+    .project-button button {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .project-content h2 {
+      font-size: 1.8rem;
+    }
+  
+    .project-content p {
+      width: 90%;
+      font-size: 1rem;
+    }
+  
+    .project-button button {
+      padding: 0.8rem 2rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .project-content h2 {
+      font-size: 1.5rem;
+    }
+  
+    .project-content p {
+      font-size: 0.9rem;
+      width: 100%;
+    }
+  
+    .project-button button {
+      padding: 0.6rem 1.5rem;
+      font-size: 0.9rem;
+    }
+  }
+  
+
+  .project-button2 button {
+    padding: 1rem 3rem;
+    background: linear-gradient(90deg, #8a2be2, #ff4500); /* Gradient button background */
+    color: white;
+    border: none;
+    border-radius: 50px; /* Pill-shaped button */
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2); /* Button shadow */
+margin-left: 40vw;
+  }

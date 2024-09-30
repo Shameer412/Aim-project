@@ -1,0 +1,59 @@
+body{
+    font-family: "Raleway", sans-serif;
+}
+/* Dropdown Hover Effect */
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block; /* Show dropdown menu on hover */
+    margin-top: 0;  /* Align dropdown when visible */
+  }
+  
+  /* Hide dropdown menu by default */
+  .dropdown-menu {
+    display: none;
+  }
+  
+  /* Adjust dropdown link styles */
+  .navbar-nav .nav-link {
+    color: black; /* Set color to black */
+    padding: 10px 15px; /* Add padding */
+    margin: 0 10px; /* Add margin */
+    text-decoration: none; /* Remove underline */
+  }
+  .nav-item a{
+    font-size: 18px;
+   
+  }
+  .nav-item{
+    padding-left: 6px;
+  }
+  /* Remove the dropdown icon */
+  .navbar-nav .dropdown-toggle::after {
+    display: none; /* Remove the dropdown arrow */
+  }
+  
+  /* Style the dropdown menu */
+  .dropdown-menu {
+    background-color: #f8f9fa; /* Optional: change dropdown background color */
+    border: none; /* Optional: remove border */
+    margin-top: 10px; /* Add margin to dropdown */
+  }
+  
+  /* Dropdown item hover effect */
+  .navbar-nav .dropdown-menu li a:hover {
+    background-color: #ddd; /* Add hover background color */
+    color: #333; /* Change text color on hover */
+  }
+  
+  /* Style for Free Consultation button */
+  .free-btn {
+    background: linear-gradient(90deg, #8a2387 0%, #e94057 52.08%, #f27121 100%);
+    width: 220px;
+    padding: 8px 0;
+    margin-left: 60px;
+    font-size: 16px;
+    border-radius: 26px;
+    color: white !important;
+    font-weight: 700;
+    border: 1px solid #bc4e9c;
+  }
+  

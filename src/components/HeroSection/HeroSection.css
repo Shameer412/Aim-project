@@ -1,0 +1,103 @@
+/* HeroSection.css */
+.hero-section {
+  background: url('https://marketpro.ai/wp-content/uploads/2024/07/Group-2824-1-1.png?id=4931') no-repeat center center;
+  background-size: cover;
+  color: white;
+  position: relative;
+  padding: 50px 15px; /* Padding for smaller screens */
+}
+
+.hero-title {
+  font-size: 2.9rem;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
+
+.list-unstyled li {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.icon {
+  color: #ffffff;
+  background: transparent;
+  margin-right: 10px;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Adjust for smaller screens like tablets */
+@media (max-width: 991px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.15rem;
+  }
+  
+  .list-unstyled li {
+    font-size: 1.1rem;
+  }
+}
+
+/* Adjust for mobile devices */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .list-unstyled li {
+    font-size: 1rem;
+  }
+  
+  .hero-section {
+    padding: 30px 10px;
+  }
+}
+
+/* Adjust for very small mobile screens */
+@media (max-width: 576px) {
+  .hero-title {
+    font-size: 1.75rem;
+    text-align: center; /* Center the text for smaller screens */
+  }
+  
+  .hero-subtitle {
+    font-size: 0.95rem;
+    
+  }
+
+
+
+  .list-unstyled li {
+    font-size: 0.9rem;
+    display: inline-block; /* Display items inline on small screens */
+    margin-right: 15px; /* Add margin between items */
+  }
+  
+  .icon {
+    margin-right: 5px;
+  }
+}
+
+.contact-btn {
+    background: linear-gradient(90deg, #8a2387 0%, #e94057 52.08%, #f27121 100%);
+    width: 150px;
+    padding: 8px 0;
+    margin-top: 8px;
+    font-size: 16px;
+    border-radius: 26px;
+    color: white !important;
+    font-weight: 700;
+    border: 1px solid #bc4e9c;
+  }

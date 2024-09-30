@@ -1,0 +1,62 @@
+.footer {
+  background-color: #111;
+}
+
+.footer h5 {
+  color: #fff;
+  font-size: 22px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 20px;
+}
+
+.footer p, .footer li {
+  color: #bbb;
+  margin-bottom: 8px; /* Reduced spacing */
+  font-size: 16px; /* Reduced font size for list items */
+}
+.contact-us-footer{
+  background: linear-gradient(269.77deg, #f27121 .31%, #e94057 50.63%, #90538d 99.92%);
+  border-radius: 10px;
+  padding: 32px;
+  color: white;
+}
+.footer ul {
+  padding-left: 0; /* Removes left padding for the ul */
+  list-style: none; /* Removes default bullet points */
+}
+
+.footer a {
+  color: #bbb;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #f39c12;
+  text-decoration: underline;
+}
+
+.social-icons a {
+  font-size: 18px; /* Adjusted icon size */
+}
+
+.social-icons a:hover {
+  color: #f39c12;
+}
+
+.footer .container {
+  max-width: 1200px; /* Restricts the max width of the container */
+}
+
+@media (max-width: 768px) {
+  .footer h5 {
+    font-size: 16px;
+  }
+
+  .footer p, .footer li {
+    font-size: 12px;
+  }
+
+  .social-icons a {
+    font-size: 16px;
+  }
+}

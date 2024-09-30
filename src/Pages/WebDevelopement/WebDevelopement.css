@@ -1,0 +1,222 @@
+
+
+.Web-Banner-1 {
+    background-image: url("https://marketpro.ai/wp-content/uploads/2022/12/Website-Dev-Header.png?id=2860");
+    background-position: center -10vh;
+    background-repeat: no-repeat;
+    /* Move background up by 10% of viewport height */
+    height: auto;
+    /* Set height to 80% of viewport height */
+    color: white;
+    padding: 10vh;
+    /* Padding of 10% of viewport height */
+
+}
+
+.Web-Banner-1 h1 {
+    font-weight: bolder;
+    font-size: 8vh;
+    /* Font size set to 8% of viewport height */
+    font-family: "Playfair Display";
+    margin-bottom: 2vh;
+    /* Space below the heading */
+}
+
+.Web-Banner-1 p {
+    font-size: 2.7vh;
+    /* Font size set to 2.7% of viewport height */
+    font-family: Helvetica;
+    padding-top: 6vh;
+    /* Padding top of 2% of viewport height */
+    font-weight: 500;
+}
+
+.Web-Banner-1 button {
+    margin-top: 6vh;
+    /* Margin top of 3% of viewport height */
+    background-color: #B97EBB;
+    height: 7vh;
+    /* Height set to 7% of viewport height */
+    width: 14vw;
+    /* Width set to 14% of viewport width */
+    color: white;
+    font-size: 2.5vh;
+    /* Font size set to 2.5% of viewport height */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    /* Change cursor to pointer on hover */
+}
+
+/* Web-Banner-2 */
+.Web-Banner-2 {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 7vh;
+    padding: 10vh;
+}
+
+.Web-Banner-2 p {
+    font-size: 1.2rem;
+    /* Font size set to 2.7% of viewport height */
+    font-family: Helvetica;
+    /* Padding top of 2% of viewport height */
+    font-weight: 500;
+    text-decoration: none solid rgb(51, 51, 51)
+}
+
+.Web-Banner-2 p a {
+    font-size: 1.4rem;
+    color: #333333;
+}
+
+/* Web-Banner-3 */
+.Web-Banner-3 {
+    background-image: url("https://marketpro.ai/wp-content/uploads/2022/11/ppc-banner-scaled.jpg?id=2403");
+    height: auto;
+    width: auto;
+    padding: 15vh;
+    padding-top: 30vh;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+}
+
+.Web-Banner-3 h1 {
+    font-weight: bolder;
+    font-size: 6vh;
+}
+
+.Web-Banner-3 p {
+    font-size: 3.2vh;
+    font-family: Helvetica;
+    padding-top: 10vh;
+    font-weight: 500;
+}
+
+.services-container {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    /* Dark gradient similar to the image background */
+}
+
+.service-card {
+    position: relative;
+    width: 250px;
+    height: 350px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    background-color: #fff;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+}
+
+.service-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    /* Transparent black overlay */
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.service-description {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+.Web-Banner-3 button {
+    background: linear-gradient(90deg, #8a2387 10%, #e94057 52.08%, #f27121 100%);
+    margin-top: 8vh;
+    /* Margin top of 3% of viewport height */
+
+    height: 7vh;
+    /* Height set to 7% of viewport height */
+    width: 14vw;
+    /* Width set to 14% of viewport width */
+
+    font-size: 2.5vh;
+    /* Font size set to 2.5% of viewport height */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    /* Change cursor to pointer on hover */
+    margin-left: 500px;
+    color: white;
+
+}
+
+/* Process Container */
+
+.timeline-container {
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.timeline-container h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.timeline-container p {
+    margin-top: 5vh;
+    color: #555;
+    font-size: 18px;
+}
+
+.timeline-container button {
+    background: linear-gradient(90deg, #8a2387 10%, #e94057 52.08%, #f27121 100%);
+    margin-top: 5vh;
+    /* Margin top of 3% of viewport height */
+
+    height: 7vh;
+    /* Height set to 7% of viewport height */
+    width: 14vw;
+    /* Width set to 14% of viewport width */
+
+    font-size: 2.5vh;
+    /* Font size set to 2.5% of viewport height */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    /* Change cursor to pointer on hover */
+
+    color: white;
+
+}

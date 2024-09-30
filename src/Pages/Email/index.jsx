@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaEnvelopeOpenText, FaBullhorn, FaVideo, FaEnvelope, FaBuilding, FaDollarSign } from 'react-icons/fa';
 import "./Email.css"
+import Navbar from './../../components/Navbar';
 const Email = () => {
     const emailTypes = [
         { label: 'Digital Magazine/ Newsletter', icon: <FaEnvelopeOpenText /> },
@@ -19,6 +20,7 @@ const Email = () => {
       ];
   return (
     <div>
+      <Navbar/>
         {/* Email-1 */}
         <div className="Email-Banner-1">
             <h1>Reach Prospects with Best <br /> Email Marketing Agency</h1>

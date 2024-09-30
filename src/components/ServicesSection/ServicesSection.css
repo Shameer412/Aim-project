@@ -1,0 +1,67 @@
+.custom-services-section {
+    background: url('https://marketpro.ai/wp-content/uploads/2023/12/side-rectangle-mpro.webp?id=3658') no-repeat center center;
+    background-size: cover;
+    padding: 60px 0;
+    position: relative;
+    overflow-x: hidden;
+  }
+  
+  .custom-services-row {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .custom-left-section {
+    text-align: center;
+  }
+  
+  .custom-heading {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  .custom-subheading {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+  }
+  
+  .custom-get-in-touch {
+    background: linear-gradient(90deg, #8a2387 0%, #e94057 52.08%, #f27121 100%);
+    border: none;
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 50px;
+    color: white;
+  }
+  
+  .custom-right-section {
+    text-align: left;
+  }
+  
+  .custom-services-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.15rem;
+    margin-bottom: 20px;
+  }
+  
+  .custom-services-list {
+    font-size: 1.125rem;
+  }
+  
+  .custom-services-list li {
+    margin-bottom: 15px;
+  }
+  
+  .custom-icon {
+ 
+    margin-right: 10px;
+    font-size: 1.5rem;
+  }
+  
+  /* Responsive Fix for Smaller Screens */
+  @media (max-width: 768px) {
+    .custom-right-section .row .col-md-6 {
+      margin-bottom: 30px;
+    }
+  }
+  

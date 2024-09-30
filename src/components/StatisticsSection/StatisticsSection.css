@@ -1,0 +1,34 @@
+.statistics-section {
+    background: url('https://marketpro.ai/wp-content/uploads/2023/12/side-rectangle-mpro.webp?id=3658') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 50px 0;
+  }
+  
+  .statistics-section h3 {
+    color: white;
+    font-size: 3.5rem;
+    font-weight: bold;
+  }
+  
+  .statistics-section p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .statistic-box {
+    border-right: 1px solid white; /* Border around each box */
+    padding: 20px 10px; /* Padding for better spacing inside the boxes */
+    max-height: 170px;
+    transition: transform 0.3s ease; /* Transition for hover effect */
+  }
+  
+  .statistic-box:hover {
+    transform: scale(1.05); /* Scale up on hover */
+  }
+  
+  
+  
+  .divider{
+    color: white;
+  }

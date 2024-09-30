@@ -1,0 +1,731 @@
+/* Default Styles for larger screens (desktops and laptops) */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body{
+    overflow-x: hidden;
+}
+
+/* Default styles for larger screens */
+.About-Hero {
+    background-image: url('https://marketpro.ai/wp-content/uploads/2022/11/side-rectangle2.png?id=902');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+    text-align: center;
+  }
+  
+  .header {
+    color: #FFFFFF;
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    font-weight: 700;
+    width: 85vw;
+  }
+  
+  .para {
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 60vw;
+    margin-top: 1vh;
+  }
+  
+
+  
+  .hero-img img {
+    width: 80vw;
+    height: auto;
+    margin-top: 3vh;
+    border-radius: 10px;
+
+  }
+  
+  /* Media query for tablets (768px and up) */
+  @media (max-width: 1024px) {
+    .header {
+      font-size: 40px;
+      width: 90vw;
+    }
+    .para {
+      font-size: 16px;
+      width: 70vw;
+    }
+    .btn {
+      font-size: 2vw;
+      width: 20vw;
+      height: 6vh;
+    }
+    .hero-img img {
+      width: 50vw;
+    }
+  }
+  
+  /* Media query for mobile devices (480px and below) */
+  @media (max-width: 480px) {
+    .About-Hero {
+      height: 100vh;
+    }
+    .header {
+      font-size: 32px;
+      width: 90vw;
+    }
+    .para {
+      font-size: 14px;
+      width: 80vw;
+      margin-top: 5vh;
+    }
+    .btn {
+      font-size: 4vw;
+      width: 40vw;
+      height: 8vh;
+    }
+    .hero-img img {
+      width: 70vw;
+    }
+  }
+  
+
+  .banner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    margin-top: 20vh;
+  }
+
+  .our-vision{
+text-align: center;
+height: auto;
+width: 40vw;
+  }
+  .banr-head{
+    font-size: 45px;
+    font-family: "Playfair Display", serif; 
+    font-weight: 700;
+   margin-bottom: 25vh;
+   text-align: left;
+
+  }
+  .banr-para{
+    color:  #575456;
+    font-family: 'inter';
+    font-size: 18px;
+    text-align: left;
+    width: 15vw;
+    position: relative;
+    bottom: 10vh;
+    margin-bottom: 5vh;
+     }
+     .banr-para2{
+        color:  #787778;
+        font-family: 'inter';
+        font-size: 18px;
+        text-align: left;
+        width: 35vw;
+        position: relative;
+        bottom: 7vh;
+}
+
+.people-section{
+    background-image: url('https://marketpro.ai/wp-content/uploads/2022/11/side-rectangle2.png?id=902');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.our-people-section {
+  text-align: center;
+  color: white;
+  padding: 50px;
+
+}
+
+.our-people-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  font-family: "Playfair Display", serif;
+}
+
+.our-people-section h3 {
+  font-size: 1.5em;
+  font-weight: normal;
+  margin-bottom: 20px;
+  font-family: "Inter", sans-serif;
+}
+
+.people-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+
+}
+
+.people-item {
+
+  padding: 20px;
+  border-radius: 8px;
+  width: 150px;
+  text-align: center;
+
+}
+
+.people-item h4 {
+  font-size: 2.5em;
+  margin: 0;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+}
+
+.people-item p {
+  margin-top: 10px;
+  font-size: 1em;
+  font-family: "Inter", sans-serif;
+}
+
+.impact-section {
+  background-color: #f9f9f9;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.impact-content {
+  flex: 1;
+  text-align: left;
+}
+
+.impact-content h2 {
+  font-size: 2em;
+  color: #c14a82;
+  margin: 0;
+}
+
+.impact-content p {
+  font-size: 1.1em;
+  color: #777;
+  margin-top: 10px;
+}
+
+.impact-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.impact-button button {
+background-image: url("https://marketpro.ai/wp-content/uploads/2023/12/side-rectangle-mpro.webp?id=3658");
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.branding-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4rem;
+  text-align: center;
+  margin-top: 15vh;
+}
+
+.content {
+  width: 40vw;
+}
+
+.content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  font-family: "Playfair Display", serif;
+}
+
+.content p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #605959;
+  font-family: 'Inter', sans-serif;
+  width: 35vw;
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping of stats */
+  justify-content: space-between;
+  width: 55vw; /* Adjust the width based on your design */
+}
+
+.stat {
+  width: 48%; /* Ensures two stats per row with some spacing */
+  margin-bottom: 1.5rem;
+}
+
+.stat h2 {
+  font-size: 2rem;
+  color: #ff6600; /* Change as per your design */
+  margin-bottom: 0.5rem;
+  font-family: 'inter' sans-serif ;
+}
+
+.stat p {
+  font-size: 1rem;
+  color: #686565;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .content h1 {
+    font-size: 2rem;
+  }
+
+  .stat h2 {
+    font-size: 1.5rem;
+  }
+
+  .stat p {
+    font-size: 0.9rem;
+  }
+
+  .stat {
+    width: 48%; /* Maintain two stats per row on tablet-sized screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .branding-section {
+    flex-direction: column; /* Stack content and stats on mobile */
+  }
+
+  .content {
+    width: 100%; /* Full width for the content */
+  }
+
+  .content h1 {
+    font-size: 1.5rem;
+  }
+
+  .content p {
+    width: 100%;
+  }
+
+  .stats {
+    width: 100%; /* Full width for the stats */
+  }
+
+  .stat {
+    width: 100%; /* Each stat takes full width on mobile */
+  }
+
+  .stat h2 {
+    font-size: 1.2rem;
+  }
+
+  .stat p {
+    font-size: 0.8rem;
+  }
+}
+
+.center-imge{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 10vh;
+ 
+}
+
+.center-imge img{
+height: 45vh;
+}
+
+
+
+
+
+.grow-section {
+  background: linear-gradient(to right, #0b0fdd, #ff5e62);
+  padding: 4rem 2rem;
+  color: white;
+  text-align: left;
+
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-bottom: 10vh;
+  height: fit-content;
+}
+
+.content {
+width: 70vw;
+  margin: 0 auto;
+}
+
+.content h1 {
+  font-size: 3rem;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 1.5rem;
+}
+
+.content p {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  color: rgb(230, 213, 213);
+  font-family: 'Inter', sans-serif;
+  width: 55vw;
+  font-weight: 600;
+  
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 2rem;
+  font-family: 'Playfair Display', serif;
+}
+
+.position {
+  font-size: 1.2rem;
+  color: #ddd;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .grow-section {
+    padding: 2rem 1rem;
+  }
+
+  .content h1 {
+    font-size: 2.5rem;
+  }
+
+  .content p {
+    font-size: 1rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .content h1 {
+    font-size: 2rem;
+  }
+
+  .content p {
+    font-size: 0.9rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+}
+
+.owner-ship {
+  padding: 4rem 2rem;
+  background-color: #f9f9f9;
+margin-left: 5vw;
+}
+
+.mid-head {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.owner-middle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.owner {
+  flex: 1; /* This will make the text take up remaining space */
+  position: relative;
+  bottom: 15vh;
+}
+
+.banr-owner {
+  font-size: 2rem;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 1rem;
+}
+
+.owner-para {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #777;
+  font-family: 'Inter', sans-serif;
+  width: 34vw;
+}
+
+.owner-image {
+  flex: 1; /* This will make the image take up remaining space */
+}
+
+.owner-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Ensures the image doesn't get stretched */
+  border-radius: 8px; /* Optional: for rounded corners */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .owner-middle {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: center;
+  }
+
+  .owner, .owner-image {
+    width: 100%; /* Take full width on smaller screens */
+  }
+
+  .mid-head {
+    font-size: 2rem;
+  }
+
+  .banr-owner {
+    font-size: 1.8rem;
+  }
+
+  .owner-para {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .mid-head {
+    font-size: 1.8rem;
+  }
+
+  .banr-owner {
+    font-size: 1.6rem;
+  }
+
+  .owner-para {
+    font-size: 0.9rem;
+  }
+}
+
+
+.why-choose-us {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #fff;
+}
+
+.title {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+  color: #333;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.grid-item {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 8px;
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  transition: transform 0.3s ease;
+}
+
+.grid-item h3 {
+  font-size: 1.5rem;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 1rem;
+}
+
+.grid-item p {
+  font-size: 1rem;
+  color: #666;
+  font-family: 'Inter', sans-serif;
+  width: 30vw;
+  margin-left: 5vw;
+}
+
+.grid-item:hover {
+  transform: translateY(-10px);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
+  }
+
+  .grid-item h3 {
+    font-size: 1.3rem;
+  }
+
+  .grid-item p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .subtitle {
+    font-size: 1.3rem;
+  }
+
+  .grid-item h3 {
+    font-size: 1.2rem;
+  }
+
+  .grid-item p {
+    font-size: 0.8rem;
+  }
+}
+
+.project-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 4rem 2rem;
+  background-color: #fff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Stronger shadow */
+  width: 100%;
+  max-width: 1200px; /* Constrain the max width */
+  margin: 0 auto;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.project-content h2 {
+  font-size: 2.5rem;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 1.3rem;
+  color: #7a005d; /* Gradient start color for the title */
+  background: linear-gradient(90deg, #7a005d 0%, #ff0066 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.project-content p {
+  font-size: 1.1rem;
+  color: #333;
+  max-width: 500px; /* Max width for better readability */
+  margin-bottom: 2.5rem;
+  line-height: 1.6;
+  font-family: 'Inter', sans-serif;
+}
+
+.project-button button {
+  padding: 1rem 3rem;
+  background: linear-gradient(90deg, #8a2be2, #ff4500); /* Gradient button background */
+  color: white;
+  border: none;
+  border-radius: 50px; /* Pill-shaped button */
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2); /* Button shadow */
+}
+
+.project-button button:hover {
+  background: linear-gradient(90deg, #7a00b5, #e64900); /* Darker gradient on hover */
+  transform: translateY(-3px); /* Lift button on hover */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1024px) {
+  .project-content h2 {
+    font-size: 2rem;
+  }
+
+  .project-content p {
+    font-size: 1.1rem;
+    padding: 0 1rem;
+  }
+
+  .project-button button {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .project-content p {
+    width: 90%;
+    font-size: 1rem;
+  }
+
+  .project-button button {
+    padding: 0.8rem 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .project-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .project-content p {
+    font-size: 0.9rem;
+    width: 100%;
+  }
+
+  .project-button button {
+    padding: 0.6rem 1.5rem;
+    font-size: 0.9rem;
+  }
+}

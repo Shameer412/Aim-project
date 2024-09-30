@@ -3,7 +3,7 @@
     background-position: center -10vh; 
     
     background-repeat: no-repeat;/* Move background up by 10% of viewport height */
-    height: 600px; /* Set height to 80% of viewport height */
+    height: 650px; /* Set height to 80% of viewport height */
     color: white;
     padding-top: 3vh;
      padding-left: 15vh;
@@ -196,7 +196,7 @@
   font-size: 32px;
 }
 .email-banner-4-4 button {
-    margin-top: 25px; /* Margin top of 3% of viewport height */
+    margin-top: 50px; /* Margin top of 3% of viewport height */
     background: linear-gradient(135deg, #f72585, #7209b7, #4361ee, #4cc9f0);
     height: 7vh; /* Height set to 7% of viewport height */
     width: 14vw; /* Width set to 14% of viewport width */

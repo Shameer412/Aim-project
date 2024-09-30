@@ -1,0 +1,95 @@
+/* Partners Section */
+.custom-partners-section {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+  }
+  
+  .custom-partners-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .custom-partners-logos {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .custom-partner-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .custom-partner-img {
+    width: 130px;
+    padding-top: 15%;
+    height: 25vh;
+    margin-bottom: 10px;
+  }
+  
+  /* Subscribe Section */
+  .custom-subscribe-section {
+    background:linear-gradient(269.77deg, #f27121 0.31%, #e94057 50.63%, #90538d 99.92%) !important;
+    padding: 40px 0;
+    color: #fff;
+    border-radius: 20px;
+    margin-top: 50px;
+    max-width: 90%;
+    margin: auto;
+  }
+  
+  .custom-subscribe-title {
+    font-size: 2.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+  
+  .custom-subscribe-text {
+    font-size: 1rem;
+  }
+  
+  .custom-subscribe-input-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .custom-subscribe-input {
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    flex-grow: 1;
+  }
+  
+  .custom-subscribe-btn {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    max-width: 30vw;
+  }
+  
+  /* Make sure the cards are responsive */
+  @media (max-width: 768px) {
+    .custom-partners-logos {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .custom-subscribe-input-container {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .custom-subscribe-btn {
+      width: 100%;
+    }
+  }
+  

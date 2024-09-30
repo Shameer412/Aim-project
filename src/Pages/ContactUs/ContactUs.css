@@ -1,0 +1,54 @@
+.contact-us-page {
+    min-height: 100vh;
+    background-image: url('https://marketpro.ai/wp-content/uploads/2022/11/side-rectangle2.png?id=2074');
+    /* Update with your background image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-us-banner {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-us-banner h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact-us-banner p {
+    font-size: 1.2rem;
+}
+
+.contact-form-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.contact-form .form-label span {
+    color: red;
+}
+
+.contact-submit-btn {
+    background: linear-gradient(90deg, #8a2387 10%, #e94057 52.08%, #f27121 100%);
+    border: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 5px;
+}
+
+.contact-submit-btn:hover {
+    background: linear-gradient(90deg, #e94057 10%, #f27121 100%, #8a2387 52.08%);
+}

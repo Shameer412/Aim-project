@@ -1,0 +1,60 @@
+/* Testimonial Container */
+.testimonial-container {
+   background: url('https://marketpro.ai/wp-content/uploads/2024/07/f1f7e8753b6b35641a5f876735dbe082-scaled000.jpeg?id=4938')  no-repeat center center; 
+   background-size: cover;
+  
+   padding: 4%;
+    color: white;
+    
+  }
+  
+  /* Content Layout */
+  .testimonial-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  /* Image Styling */
+  .testimonial-image img {
+    max-width: 400px;
+    height: 480px;
+    object-fit: cover;
+    border-radius: 25px;
+  }
+  
+  /* Text Styling */
+  .testimonial-text {
+    max-width: 650px;
+  }
+  
+  .testimonial-quote {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-author {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .testimonial-role {
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .testimonial-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .testimonial-image img {
+      margin-bottom: 20px;
+    }
+  }
+  
